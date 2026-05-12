@@ -1,8 +1,4 @@
-# Project: Antarctica Freeboard Calculation
-For tide gauge sites on Antarctica, calculate freeboard using ICESAT-2 and tide gauge.
-Extension:
-(1)Comparing results with GNSS-IR and tide gauge
-(2)Generating freeboard within 25 km away from coast using SSH model and tide gauge, linking to ICESAT-2 ATL10 (> 25 km freeboard) to have a whole freeboard coverage of Antarctica
+# Course Project: Antarctica Freeboard Calculation Using ICEsat-2 and Tide Gauge
 
 ## Tide Gauge data
 ### TG data source
