@@ -1,0 +1,49 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 /tmp/build_nb.py)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(where python:*)",
+      "Bash(py --version)",
+      "Bash(python /tmp/build_nb.py)",
+      "Bash(python build_nb.py)",
+      "Bash(python -c \"import json; nb=json.load\\(open\\(''main.ipynb''\\)\\); print\\(f''nbformat={nb[\"\"nbformat\"\"]}, cells={len\\(nb[\"\"cells\"\"]\\)}''\\)\")",
+      "Bash(\"D:/application/reserach-application/Miniconda/python.exe\" /tmp/append_cells.py)",
+      "Bash(echo $TEMP)",
+      "Bash(\"D:/application/reserach-application/Miniconda/python.exe\" \"e:/UH/graduate class/LiDAR/project/Freeboard/append_cells.py\")",
+      "Bash(\"D:/application/reserach-application/Miniconda/python.exe\" -c \":*)",
+      "Bash(\"D:/application/reserach-application/Miniconda/python.exe\" \"e:/UH/graduate class/LiDAR/project/Freeboard/add_b2.py\")",
+      "Bash(del \"e:\\\\UH\\\\graduate class\\\\LiDAR\\\\project\\\\Freeboard\\\\add_b2.py\")",
+      "Bash(python -c \":*)",
+      "Read(//g/Freeboard_input_data/TideGauge/**)",
+      "Bash(python)",
+      "Bash(python e:/tmp/insert_b4.py)",
+      "Bash(python e:/tmp/insert_e1.py)",
+      "Bash(python e:/tmp/insert_atl12.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Read(//media/pzhang27/Extreme SSD/Freeboard_input_data/TideGauge/ROBT/**)",
+      "Bash(pip show *)",
+      "Bash(python3 -c \"import contextily; print\\('contextily OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import contextily; print\\('contextily', contextily.__version__\\)\")",
+      "Bash(python3 -c \"import cartopy; print\\('cartopy', cartopy.__version__\\)\")",
+      "Bash(python3 -c \"import geopandas; print\\('geopandas OK'\\)\")",
+      "Read(//media/pzhang27/Extreme SSD/Freeboard_input_data/ATL07/ROTHERA/**)",
+      "Read(//media/pzhang27/Extreme SSD/Freeboard_input_data/**)",
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "Read(//usr/**)",
+      "Read(//home/pzhang27/.local/**)",
+      "Read(//opt/**)",
+      "Bash(python -c \"import h5py; print\\('h5py OK', h5py.__version__\\)\")",
+      "Bash(jupyter kernelspec *)",
+      "Bash(/home/pzhang27/.conda/envs/freeboard/bin/python)",
+      "Bash(python -c ' *)",
+      "Bash(/home/pzhang27/.conda/envs/freeboard/bin/python -c ' *)"
+    ],
+    "additionalDirectories": [
+      "\\tmp",
+      "e:\\tmp"
+    ]
+  }
+}
